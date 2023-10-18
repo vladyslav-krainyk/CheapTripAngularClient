@@ -7,8 +7,8 @@
   "scripts": {
     "postbuild": "cp -r -n ./src/index ./dist/cheapTrip",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --openssl-legacy-provider",
+    "build": "ng build --openssl-legacy-provider",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
