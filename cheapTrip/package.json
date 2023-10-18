@@ -2,7 +2,7 @@
   "name": "cheap-trip",
   "version": "0.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "scripts": {
     "postbuild": "node copy-files.js",
