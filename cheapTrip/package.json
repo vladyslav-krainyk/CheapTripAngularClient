@@ -1,8 +1,11 @@
 {
   "name": "cheap-trip",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "postbuild": "xcopy /s \"./src\\index\" \"./dist\\cheapTrip\" /Y",
+    "postbuild": "node copy-files.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -34,6 +37,7 @@
     "express": "4.17.1",
     "firebase": "^7.0 || ^8.0",
     "flag-icon-css": "^3.5.0",
+    "fs-extra": "^11.1.1",
     "mssql": "^6.3.1",
     "mysql": "^2.17.1",
     "ng-country-flags": "^1.0.7",
