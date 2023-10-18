@@ -1,6 +1,9 @@
 {
   "name": "cheap-trip",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "postbuild": "cp -r -n ./src/index ./dist/cheapTrip",
     "ng": "ng",
